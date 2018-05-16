@@ -17,7 +17,7 @@ public class TwitterPrimeNumBot {
     public static void main(String[] args) throws TwitterException, IOException {
         //get Twitter API Token at https://apps.twitter.com and update twitter4j.propeties
         Twitterer tw = new Twitterer(consolePrint);  
-        tw.replyWithPrime("#CLCPrimeBot");   //tag need to be find
+        tw.replyWithPrime("#CLCPrimeBot");   //tag need to be find: tweet as #CLCPrimeBot number eg: #CLCPrimeBot 23
         System.out.println("Sucessfully Replied to all tweets");
     }
     
