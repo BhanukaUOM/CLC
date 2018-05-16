@@ -1,4 +1,4 @@
-//package twitterprimenumbot;
+package twitterprimenumbot;
 
 /**
  *
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.util.List;
 import java.util.logging.Level;
-import twitter4j.*;
+import twitter4j.*; //  http://twitter4j.org/en/
 
 public class TwitterPrimeNumBot {
     private static PrintStream consolePrint;
